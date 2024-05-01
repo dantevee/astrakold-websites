@@ -1,0 +1,18 @@
+* {
+    z-index: 10;
+}
+
+.section {
+    height: 100dvh;
+    position: relative;
+}
+
+.mainvid {
+    width: 100%;
+}
+
+@media (min-width: 539px) and (max-width: 1042px) {
+    .mainvid {
+        width: 500px;
+    }
+}
