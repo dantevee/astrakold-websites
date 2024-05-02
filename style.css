@@ -7,16 +7,6 @@
     position: relative;
 }
 
-.mainvid {
-    width: 100%;
-}
-
-@media (min-width: 539px) and (max-width: 1042px) {
-    .mainvid {
-        width: 500px;
-    }
-}
-
 .letter {
     font-size: 100vh;
     font-weight: 1000;
@@ -29,3 +19,54 @@
   -ms-user-select: none; /* IE 10 and IE 11 */
   user-select: none; /* Standard syntax */
 }
+
+.mainvid {
+    width: 100%;
+}
+
+.testimonial {
+    width: 100%;
+}
+
+
+.testimonialvid {
+    width: 100%;
+}
+
+@media (min-width: 539px) and (max-width: 1200px) {
+    .mainvid {
+        width: 500px;
+    }
+
+    
+}
+@media (min-width: 539px) and (max-width: 1200px) {
+    .testimonial {
+        width: 500px;
+    }
+
+    
+}
+
+
+@media (max-width: 539px) {
+    .testimonial {
+        width: 80dvw;
+    }
+}
+
+.testimonialh1 {
+    font-size: 5rem; 
+    margin-bottom: 10%; 
+    font-weight: 800; 
+    color: white;
+}
+
+@media (max-width: 580px) {
+    .testimonialh1 {
+        font-size: 3rem;
+    }
+}
+
+
+
