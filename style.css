@@ -23,6 +23,7 @@
 
 .mainvid {
     width: 90%;
+    height: 24.4vw;
     border-radius: 15px;
 }
 
@@ -43,11 +44,16 @@
 @media (min-width: 539px) and (max-width: 1200px) {
     .mainvid {
         width: 500px;
+        height: 285px;
+
     }
-
-
     
-    
+}
+@media (max-width: 539px) {
+    .mainvid {
+        height: 50vw;
+
+    }
 }
 
 @media (max-width: 1200px) {
@@ -64,6 +70,25 @@
     }
 
     
+}
+
+.logo {
+    height: 5%; 
+    text-align: center; 
+    font-weight: 900; 
+    font-size: 2.2rem;
+}
+
+.cat {
+    width: 50vw; 
+    margin: 50px; 
+    border-radius: 10px;
+}
+
+@media (max-width: 900px) {
+    .cat {
+        width: 90vw;
+    }
 }
 
 .contacts {
@@ -89,6 +114,17 @@
 @media (max-width: 539px) {
     .testimonial {
         width: 80dvw;
+    }
+
+    .logo {
+        font-size: 2rem;
+    }
+
+    .sub {
+        overflow: hidden;
+        height: 0 ;
+        width: 0;
+        overflow: hidden;
     }
 }
 
