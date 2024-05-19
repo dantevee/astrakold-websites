@@ -1,5 +1,6 @@
 * {
     z-index: 10;
+    
 }
 
 .section {
@@ -21,7 +22,8 @@
 }
 
 .mainvid {
-    width: 100%;
+    width: 90%;
+    border-radius: 15px;
 }
 
 .testimonial {
@@ -33,13 +35,29 @@
     width: 100%;
 }
 
+.offer {
+    width: 600px;
+    text-align: left;
+}
+
 @media (min-width: 539px) and (max-width: 1200px) {
     .mainvid {
         width: 500px;
     }
 
+
+    
     
 }
+
+@media (max-width: 1200px) {
+    .offer {
+        text-align: center;
+        width: 100vw;
+    }
+}
+
+
 @media (min-width: 539px) and (max-width: 1200px) {
     .testimonial {
         width: 500px;
