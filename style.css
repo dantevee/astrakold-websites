@@ -4,7 +4,7 @@
 }
 
 .section {
-    height: 100vh;
+    height: 100dvh;
     position: relative;
 }
 
@@ -111,6 +111,12 @@
 }
 
 
+.mainoffer {
+    font-size: 3rem;
+    margin: 0;
+    font-weight: 700;
+}
+
 @media (max-width: 539px) {
     .testimonial {
         width: 80dvw;
@@ -135,11 +141,14 @@
     color: white;
 }
 
+
+
 @media (max-width: 580px) {
     .testimonialh1 {
         font-size: 3rem;
     }
-}
 
+  
+}
 
 
